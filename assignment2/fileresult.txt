@@ -1,0 +1,6 @@
+vboxuser@ubuntu22:~/assignment-2-lkartik2212/finder-app$ make CROSS_COMPILE 
+make CC=/home/vboxuser/Downloads/arm-gnu-toolchain-13.3.rel1-x86_64-aarch64-none-linux-gnu/bin/aarch64-none-linux-gnu-gcc
+make[1]: Entering directory '/home/vboxuser/assignment-2-lkartik2212/finder-app'
+/home/vboxuser/Downloads/arm-gnu-toolchain-13.3.rel1-x86_64-aarch64-none-linux-gnu/bin/aarch64-none-linux-gnu-gcc -Wall -Wextra -g -c writer.c -o writer.o
+/home/vboxuser/Downloads/arm-gnu-toolchain-13.3.rel1-x86_64-aarch64-none-linux-gnu/bin/aarch64-none-linux-gnu-gcc -Wall -Wextra -g -o writer writer.o
+make[1]: Leaving directory '/home/vboxuser/assignment-2-lkartik2212/finder-app'

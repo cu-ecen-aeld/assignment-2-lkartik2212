@@ -17,6 +17,6 @@ clean:
 
 .PHONY: all clean
 
-cross-compile:
+CROSS_COMPILE:
 	$(MAKE) CC=/home/vboxuser/Downloads/arm-gnu-toolchain-13.3.rel1-x86_64-aarch64-none-linux-gnu/bin/aarch64-none-linux-gnu-gcc
 
